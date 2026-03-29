@@ -4,16 +4,16 @@ const { validationResult } = require('express-validator');
 // Cookie options
 const accessTokenOptions = {
   httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
-  sameSite: 'lax',
-  maxAge: 15 * 60 * 1000 // 15 minutes
+  secure: true,
+  sameSite: 'none',
+    maxAge: 7 * 24 * 60 * 60 * 1000
 };
 
 const refreshTokenOptions = {
-  httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
-  sameSite: 'lax',
-  maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
+ httpOnly: true,
+  secure: true,
+  sameSite: 'none',
+    maxAge: 7 * 24 * 60 * 60 * 1000
 };
 
 // @desc    Register user
