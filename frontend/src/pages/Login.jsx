@@ -103,7 +103,7 @@ const Login = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
               <HiOutlineScale className="text-white text-xl" />
             </div>
-            <h1 className="text-xl font-bold text-white">JudiTrack</h1>
+            <h1 className="text-xl font-bold text-white">Smart Judiciary System</h1>
           </div>
 
           <h2 className="text-2xl font-bold text-white mb-1">Welcome back</h2>
