@@ -1,0 +1,24 @@
+{
+  "name": "judiciary-backend",
+  "version": "1.0.0",
+  "description": "Judiciary Case Backlog Reduction System - Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^9.5.0",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0"
+  }
+}
