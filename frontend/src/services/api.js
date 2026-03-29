@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api', // ✅ FIX
+  baseURL: 'https://judiciary-case-backlog-reduction-backend.onrender.com/api', // ✅ FIX
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
